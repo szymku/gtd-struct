@@ -1,0 +1,32 @@
+-title-
+GTD-struct
+---
+
+-desc-
+I would like to have nice formated, readable structure
+---
+
+-subtasks-
+1. Struct for projects desc file
+2. Struct for subtask file
+3. Subtask flow
+---
+
+-result-
+Where the full GTD structure is consistent, simple, maintainable
+---
+
+concrete time
+->2017-09-23<-
+->2017-09-23T10<-
+->2017-09-23T10:30<-
+
+when to start 
+->2017-09-23->
+->2017-09-23T10->
+->2017-09-23T10:30->
+
+when to finish
+<-2017-09-23<-
+<-2017-09-23T10<-
+<-2017-09-23T10:30<-
