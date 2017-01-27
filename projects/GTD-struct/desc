@@ -16,6 +16,10 @@ I would like to have nice formated, readable structure
 Where the full GTD structure is consistent, simple, maintainable
 ---
 
+-labels-
+computer,home,Białystok,phone,work
+---
+
 concrete time
 ->2017-09-23<-
 ->2017-09-23T10<-
@@ -30,3 +34,4 @@ when to finish
 <-2017-09-23<-
 <-2017-09-23T10<-
 <-2017-09-23T10:30<-
+
