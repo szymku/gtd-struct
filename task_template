@@ -1,0 +1,61 @@
+-title-
+Name of a project. The same as a folder name for project or a file for tasks.
+---
+
+-desc-
+Descryption of project or task.
+---
+
+-subtasks-
+As a numbered list or not. Here example.
+1. Struct for projects desc file (done)
+2. Struct for subtask file (inprogress)
+3. Subtask flow (cancelled)
+4. Reference materials 
+5. Folders - done, cancelled, waiting 
+---
+
+-result-
+Criterium of done.
+Should be as much precised as possible. Maybe as checklist.
+Clearly defined.
+Simply checkable.
+What I want to be done after finish the task.
+Now is like that after will be ...
+---
+
+-labels-
+Labels for grouping tasks together based on context.
+Task can have more than one label.
+computer,home,Białystok,phone,work
+---
+
+-notes-
+some notes, ideas about project or task
+---
+
+-status-
+waiting, cancelled, done, inprogress
+---
+
+-references-
+Materials that are conected to this task
+Some links, where to find what is needed.
+Easly findable
+---
+
+concrete time to do task
+->2017-09-23<-
+->2017-09-23T10<-
+->2017-09-23T10:30<-
+
+when is it possible to start 
+->2017-09-23->
+->2017-09-23T10->
+->2017-09-23T10:30->
+
+when should/have to be finished
+<-2017-09-23<-
+<-2017-09-23T10<-
+<-2017-09-23T10:30<-
+

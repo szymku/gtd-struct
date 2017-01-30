@@ -7,9 +7,11 @@ I would like to have nice formated, readable structure
 ---
 
 -subtasks-
-1. Struct for projects desc file
-2. Struct for subtask file
-3. Subtask flow
+1. Struct for projects desc file (done)
+2. Struct for subtask file (inprogress)
+3. Subtask flow (cancelled)
+4. Reference materials 
+5. Folders - done, cancelled, waiting 
 ---
 
 -result-
@@ -18,6 +20,17 @@ Where the full GTD structure is consistent, simple, maintainable
 
 -labels-
 computer,home,Białystok,phone,work
+---
+
+-notes-
+some notes, ideas about project or task
+---
+
+-status-
+waiting, cancelled, done, inprogress
+---
+
+-references-
 ---
 
 concrete time
