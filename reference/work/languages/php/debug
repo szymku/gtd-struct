@@ -1,0 +1,14 @@
+-title-
+debug
+---
+
+-desc-
+info, tools, insight about easy and efficient debuging
+---
+
+-functions-
+* debug_print_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
+
+---
+
+

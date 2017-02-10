@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<example_xml_created_with_office xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <record>
+       <kod>222</kod>
+       <nazwa>data</nazwa>
+       <stan>44</stan>
+       <cena>441</cena>
+    </record>
+     <record>
+       <kod>123</kod>
+       <nazwa>aaa</nazwa>
+       <stan>4</stan>
+       <cena>4412</cena>
+    </record>
+</example_xml_created_with_office>

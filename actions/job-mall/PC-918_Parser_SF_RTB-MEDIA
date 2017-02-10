@@ -1,0 +1,48 @@
+-title-
+    PC-918_Parser_SF_RTB-MEDIA
+--- 
+
+-to_do_first-
+
+---
+
+-tasks_list-
+1. create file for parsing (new parser)
+2. check xml schema
+3. how mall.* knows about those products?
+4. ask Tomas about missing price column
+
+5. 
+---
+
+
+-tasks-
+
+3. sap is updated using sap-webservice Z_WEB_EINE
+
+---
+
+-references-
+https://blog.udemy.com/excel-to-xml/
+---
+
+
+-tests-
+
+57845 - RTB MEDIA
+53782 - lechpol
+53801 - HUVectraLine	
+
+---
+
+
+
+-notes-
+There is no price column, I should talk about that with Tomas Frana. >It is only stock sync
+    
+
+create test xml based on spreadsheet in [materials]
+
+check Husky parser
+
+---

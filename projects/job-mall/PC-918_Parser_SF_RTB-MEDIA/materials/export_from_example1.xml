@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<example_xml_created_with_office xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<kod>1111</kod>
+		<nazwa>tv</nazwa>
+		<stan>22</stan>
+		<cena>22</cena>
+	</record>
+	<record>
+		<kod>222</kod>
+		<nazwa>bum</nazwa>
+		<stan>333</stan>
+		<cena>11</cena>
+	</record>
+	<record>
+		<kod>33</kod>
+		<nazwa>aaa</nazwa>
+		<stan>323</stan>
+		<cena>55</cena>
+	</record>
+</example_xml_created_with_office>
