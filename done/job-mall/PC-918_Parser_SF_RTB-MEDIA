@@ -35,8 +35,6 @@ https://blog.udemy.com/excel-to-xml/
 
 ---
 
-
-
 -notes-
 There is no price column, I should talk about that with Tomas Frana. >It is only stock sync
     
@@ -44,5 +42,7 @@ There is no price column, I should talk about that with Tomas Frana. >It is only
 create test xml based on spreadsheet in [materials]
 
 check Husky parser
+
+previous release was 18 in bamboo before deploy
 
 ---

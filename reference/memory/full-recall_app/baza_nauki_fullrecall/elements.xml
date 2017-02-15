@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fullrecall [
+	<!ELEMENT fullrecall (category?)>
+	<!ELEMENT category (item?)>
+	<!ELEMENT item (q, a)>
+	<!ELEMENT q (#PCDATA)>
+	<!ELEMENT a (#PCDATA)>
+	<!ATTLIST fullrecall core_version CDATA #IMPLIED
+		time_of_start CDATA #REQUIRED>
+	<!ATTLIST category name CDATA #REQUIRED
+		qbgclr CDATA #IMPLIED
+		abgclr CDATA #IMPLIED
+		qfntclr CDATA #IMPLIED
+		afntclr CDATA #IMPLIED
+		qfont CDATA #IMPLIED
+		afont CDATA #IMPLIED
+		qimg CDATA #IMPLIED
+		aimg CDATA #IMPLIED>
+	<!ATTLIST item id ID #REQUIRED
+		tmtrpt CDATA #REQUIRED
+		stmtrpt CDATA #REQUIRED
+		llivl CDATA #REQUIRED
+		rlivl CDATA #REQUIRED
+		ivl CDATA #REQUIRED
+		rp CDATA #REQUIRED
+		gr CDATA #REQUIRED
+		sstick IDREF #IMPLIED
+		hstick IDREF #IMPLIED>
+]>
+
+<!--
+FullRecall saves both elements.bin (space and speed efficient format)
+and elements.xml (this file contains the same data in human-readable XML format)
+FullRecall reads this file instead of elements.bin if either elements.bin is unavailable
+or this file was modified more recently than elements.bin
+
+LEGEND:
+ time_of_start = first day of your FullRecall learning (in Unix time format)
+ ITEM DATA:
+  id  = id number (in fact: time of creating item in Unix time format)
+  tmtrpt  = time to repeat
+  stmtrpt = time to repeat computed on not-ahead-of-scheduled-time review
+  livl= last interval computed by ANN (in days; 0-2048)
+  rllivl  = real last interval (in days; 0-2048)
+  ivl = interval (in days; 0-2048)
+  rp  = number of not-ahead-of-scheduled-time reviews (0-128)
+  gr  = grade (0-5; 0=the worst, 5=the best)
+  q   = question
+  a   = answer
+-->
+
+
+<fullrecall core_version="12" time_of_start="1487152617">
+
+<category name="root">
+
+</category>
+
+</fullrecall>

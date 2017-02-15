@@ -1,0 +1,9 @@
+-title-
+Chef
+---
+
+
+-terms-
+data bag - a json file that contains global variables for chef
+
+---
