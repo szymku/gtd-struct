@@ -56,4 +56,89 @@ LEGEND:
 
 </category>
 
+<category name="English">
+
+</category>
+
+<category name="Work">
+
+<category name="phpStorm">
+
+<item id="1487255060" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>phpStorm 
+How to navigate to class, file, symbol?</q>
+<a>class -> Ctrl+N
+file -> Ctrl+Shift+N
+symbol -> Ctrl+Shift+Alt+N
+
+N as Name</a>
+</item>
+
+</category>
+
+<item id="1487230473" tmtrpt="2" stmtrpt="2" livl="0" rllivl="0" ivl="1" rp="0" gr="3">
+<q>image for   _</q>
+<a>wózek widłowy</a>
+</item>
+
+<item id="1487230229" tmtrpt="2" stmtrpt="2" livl="0" rllivl="0" ivl="1" rp="0" gr="3">
+<q>Ending of elastic kopf plugin?</q>
+<a>/_plugin/kopf</a>
+</item>
+
+<item id="1487232176" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>images for slash   \   and   /</q>
+<a><![CDATA[<img>imgs\slash-backslash.png</img>]]></a>
+</item>
+
+<item id="1487232861" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>default ES port </q>
+<a>PaNSoS
+9200
+</a>
+</item>
+
+<item id="1487233729" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>What labels are in docker-composer?</q>
+<a>They add metadata to containers
+https://docs.docker.com/engine/userguide/labels-custom-metadata/</a>
+</item>
+
+<item id="1487234750" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>Which command stop docker container?</q>
+<a>docker stop   -> gracefuly
+docker kill    -> 
+docker rm -f  -> force option</a>
+</item>
+
+<item id="1487243296" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>numer do szefa 9express</q>
+<a>60 61 62 60 1
+jazz yetti cyna jazz duch
+</a>
+</item>
+
+<item id="1487253503" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>Where we keep information about reservations?
+schema, table</q>
+<a>IWMTNEW_T2 
+availability
+</a>
+</item>
+
+<item id="1487253565" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>Test REC schema</q>
+<a>
+
+
+IWMTNEW_T2
+Im Więcej Miejsca Tym NEW Telewizor 2</a>
+</item>
+
+</category>
+
+<category name="Home">
+
+</category>
+
 </fullrecall>
