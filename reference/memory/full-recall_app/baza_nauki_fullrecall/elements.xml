@@ -64,7 +64,7 @@ LEGEND:
 
 <category name="phpStorm">
 
-<item id="1487255060" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<item id="1487255060" tmtrpt="10" stmtrpt="3" livl="2" rllivl="1" ivl="8" rp="0" gr="4">
 <q>phpStorm 
 How to navigate to class, file, symbol?</q>
 <a>class -> Ctrl+N
@@ -81,44 +81,41 @@ N as Name</a>
 <a>wózek widłowy</a>
 </item>
 
-<item id="1487230229" tmtrpt="2" stmtrpt="2" livl="0" rllivl="0" ivl="1" rp="0" gr="3">
+<item id="1487316655" tmtrpt="4" stmtrpt="4" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>Which sap-webservices we are using in refresh-availability script?</q>
+<a>Z_WEB_AV_STOCK -> how much stuff is in a warehouse
+Z_WEB_AV_STATUS 
+Z_WEB_AV_SUPPLIER</a>
+</item>
+
+<item id="1487316795" tmtrpt="4" stmtrpt="4" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>memory image
+SAP </q>
+<a>sapiący koleś</a>
+</item>
+
+<item id="1487234750" tmtrpt="6" stmtrpt="3" livl="2" rllivl="1" ivl="4" rp="0" gr="3">
+<q>Which command stop docker container?</q>
+<a><![CDATA[docker stop   -> gracefuly
+docker kill    -> 
+docker rm -f  -> force option<img>imgs\docker_image.png</img>]]></a>
+</item>
+
+<item id="1487253565" tmtrpt="6" stmtrpt="3" livl="2" rllivl="1" ivl="4" rp="0" gr="3">
+<q>Test REC schema</q>
+<a>
+
+
+IWMTNEW_T2
+Im Więcej Miejsca Tym NEW Telewizor 2</a>
+</item>
+
+<item id="1487230229" tmtrpt="8" stmtrpt="8" livl="1" rllivl="1" ivl="6" rp="1" gr="4">
 <q>Ending of elastic kopf plugin?</q>
 <a>/_plugin/kopf</a>
 </item>
 
-<item id="1487232176" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>images for slash   \   and   /</q>
-<a><![CDATA[<img>imgs\slash-backslash.png</img>]]></a>
-</item>
-
-<item id="1487232861" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>default ES port </q>
-<a>PaNSoS
-9200
-</a>
-</item>
-
-<item id="1487233729" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>What labels are in docker-composer?</q>
-<a>They add metadata to containers
-https://docs.docker.com/engine/userguide/labels-custom-metadata/</a>
-</item>
-
-<item id="1487234750" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>Which command stop docker container?</q>
-<a>docker stop   -> gracefuly
-docker kill    -> 
-docker rm -f  -> force option</a>
-</item>
-
-<item id="1487243296" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>numer do szefa 9express</q>
-<a>60 61 62 60 1
-jazz yetti cyna jazz duch
-</a>
-</item>
-
-<item id="1487253503" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<item id="1487253503" tmtrpt="10" stmtrpt="3" livl="2" rllivl="1" ivl="8" rp="0" gr="4">
 <q>Where we keep information about reservations?
 schema, table</q>
 <a>IWMTNEW_T2 
@@ -126,13 +123,29 @@ availability
 </a>
 </item>
 
-<item id="1487253565" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>Test REC schema</q>
-<a>
+<item id="1487232861" tmtrpt="13" stmtrpt="3" livl="2" rllivl="1" ivl="11" rp="0" gr="5">
+<q>default ES port </q>
+<a>PaNSoS
+9200
+</a>
+</item>
 
+<item id="1487233729" tmtrpt="14" stmtrpt="3" livl="2" rllivl="1" ivl="12" rp="0" gr="5">
+<q>What labels are in docker-composer?</q>
+<a><![CDATA[They add metadata to containers
+https://docs.docker.com/engine/userguide/labels-custom-metadata/<img>imgs\docker_image.png</img>]]></a>
+</item>
 
-IWMTNEW_T2
-Im Więcej Miejsca Tym NEW Telewizor 2</a>
+<item id="1487243296" tmtrpt="15" stmtrpt="3" livl="13" rllivl="0" ivl="13" rp="0" gr="4">
+<q>numer do szefa 9express</q>
+<a>60 61 62 60 1
+jazz yetti cyna jazz duch
+</a>
+</item>
+
+<item id="1487232176" tmtrpt="16" stmtrpt="3" livl="2" rllivl="1" ivl="14" rp="0" gr="5">
+<q>images for slash   \   and   /</q>
+<a><![CDATA[<img>imgs\slash-backslash.png</img>]]></a>
 </item>
 
 </category>
