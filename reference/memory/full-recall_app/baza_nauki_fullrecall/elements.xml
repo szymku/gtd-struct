@@ -58,11 +58,33 @@ LEGEND:
 
 <category name="English">
 
+<item id="1487339781" tmtrpt="4" stmtrpt="4" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>provision</q>
+<a>zaopatrzenie</a>
+</item>
+
+<item id="1487439949" tmtrpt="5" stmtrpt="5" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>how to create group in linux?</q>
+<a><![CDATA[groupadd <name>]]></a>
+</item>
+
+<item id="1487439978" tmtrpt="5" stmtrpt="5" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>How to modify user in linux?</q>
+<a>usermod</a>
+</item>
+
 </category>
 
 <category name="Work">
 
 <category name="phpStorm">
+
+<item id="1487322734" tmtrpt="6" stmtrpt="6" livl="0" rllivl="0" ivl="4" rp="0" gr="5">
+<q>Go to settings phpStorm</q>
+<a>Ctrl+Alt+S
+
+S Settings</a>
+</item>
 
 <item id="1487255060" tmtrpt="10" stmtrpt="3" livl="2" rllivl="1" ivl="8" rp="0" gr="4">
 <q>phpStorm 
@@ -81,6 +103,62 @@ N as Name</a>
 <a>wózek widłowy</a>
 </item>
 
+<item id="1487324098" tmtrpt="2" stmtrpt="2" livl="0" rllivl="0" ivl="0" rp="0" gr="2">
+<q>docker run command 
+
+How it looks like?
+
+example  for bash
+
+
+
+</q>
+<a>docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+docker run -t -i --rm ubuntu bash</a>
+</item>
+
+<item id="1487324990" tmtrpt="2" stmtrpt="2" livl="0" rllivl="0" ivl="0" rp="0" gr="2">
+<q>structure for refresh-availability -L 1</q>
+<a>|-- Dockerfile.consumer
+|-- Dockerfile.producer
+|-- Dockerfile.rabbitmq
+|-- README.md
+|-- app
+|   |-- bootstrap.php
+|   `-- config.php
+|-- composer.json
+|-- composer.lock
+|-- config
+|   `-- config.ini
+|-- console.php
+|-- docker-compose.yml
+|-- src
+|   `-- RefreshAvailability
+|       |-- Command
+|       |   |-- AbstractCommand.php
+|       |   |-- ConsumerCommand.php
+|       |   `-- ProducerCommand.php
+|       |-- Model
+|       |   |-- Message.php
+|       |   `-- Variant.php
+|       `-- Persistence
+|           `-- InMemoryServiceRepository.php
+`-- vendor</a>
+</item>
+
+<item id="1487325739" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="1" rp="0" gr="3">
+<q>docker-compose  rebuild only one container ?</q>
+<a>docker-compose stop web
+docker-compose build web
+docker-compose up -d --no-deps web</a>
+</item>
+
+<item id="1487339763" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="1" rp="0" gr="3">
+<q>How to copy file from container to host?</q>
+<a><![CDATA[docker cp <containerId>:/file/path/within/container /host/path/target]]></a>
+</item>
+
 <item id="1487316655" tmtrpt="4" stmtrpt="4" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
 <q>Which sap-webservices we are using in refresh-availability script?</q>
 <a>Z_WEB_AV_STOCK -> how much stuff is in a warehouse
@@ -92,6 +170,21 @@ Z_WEB_AV_SUPPLIER</a>
 <q>memory image
 SAP </q>
 <a>sapiący koleś</a>
+</item>
+
+<item id="1487316930" tmtrpt="4" stmtrpt="4" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>memory img
+
+refresh-availability</q>
+<a><![CDATA[Tutaj wpisz odpowiedź.<img>imgs\refresh-availability_odświeżacz.jpg</img>]]></a>
+</item>
+
+<item id="1487325836" tmtrpt="4" stmtrpt="4" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>How to run docker container in detached mode 
+in background</q>
+<a><![CDATA[docker-compose up -d 
+
+<b>-d</b>]]></a>
 </item>
 
 <item id="1487234750" tmtrpt="6" stmtrpt="3" livl="2" rllivl="1" ivl="4" rp="0" gr="3">
