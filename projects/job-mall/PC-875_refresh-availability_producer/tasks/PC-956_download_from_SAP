@@ -1,0 +1,87 @@
+-title-
+PC-956_download_from_SAP
+---
+
+-next_step-
+
+2. Prepare downloading data
+
+---
+
+
+-tasks_list-
+1. Connect to sap-services
+2. Prepare downloading data
+3. Process data 
+4. Create constants for script
+5. Create uuid
+6. Push to queue
+---
+
+
+-notes-
+
+We need 
+-variantID
+-warehouse
+-amount
+
+
+<ET_AV_STOCK>
+            <item>
+               <MATNR>100045</MATNR>
+               <WERKS>CZD1</WERKS>
+               <LGORT/>
+               <MENGE_CESTA>0.000</MENGE_CESTA>
+               <MENGE_DISPO>0.000</MENGE_DISPO>
+               <MENGE_SKLAD>1.000</MENGE_SKLAD>
+               <MEINS>ST</MEINS>
+            </item>
+            <item>
+               <MATNR>100047</MATNR>
+               <WERKS>CZD1</WERKS>
+               <LGORT/>
+               <MENGE_CESTA>0.000</MENGE_CESTA>
+               <MENGE_DISPO>1.000</MENGE_DISPO>
+               <MENGE_SKLAD>1.000</MENGE_SKLAD>
+               <MEINS>ST</MEINS>
+            </item>
+            .
+            .
+</ET_AV_STOCK>
+
+MATNR -> variantId
+WERKS -> warehouseId
+
+MANGE_DISPO -> ourAvailability
+MENGE_SKLAD -> ???
+MENGE_CESTA -> ???
+MEINS       -> ???
+LGORT       -> ???
+
+
+
+all warehouse 3rd letter ['D', 'O', 'S']
+
+supplier term ???
+
+
+---
+
+
+
+# Install oracle intantclient and install oci8 php extension
+ADD src/dumps/instantclient-basic-linux.x64-12.1.0.2.0.zip /tmp/
+ADD src/dumps/instantclient-sdk-linux.x64-12.1.0.2.0.zip /tmp/
+ADD src/dumps/instantclient-sqlplus-linux.x64-12.1.0.2.0.zip /tmp/
+
+RUN unzip /tmp/instantclient-basic-linux.x64-12.1.0.2.0.zip -d /usr/local/ \
+    && unzip /tmp/instantclient-sdk-linux.x64-12.1.0.2.0.zip -d /usr/local/ \
+    && unzip /tmp/instantclient-sqlplus-linux.x64-12.1.0.2.0.zip -d /usr/local/
+
+RUN ln -s /usr/local/instantclient_12_1 /usr/local/instantclient \
+    && ln -s /usr/local/instantclient/libclntsh.so.12.1 /usr/local/instantclient/libclntsh.so \
+    && ln -s /usr/local/instantclient/sqlplus /usr/bin/sqlplus \
+    && pecl install oci8 
+
+RUN docker-php-ext-enable oci8

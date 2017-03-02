@@ -58,19 +58,15 @@ LEGEND:
 
 <category name="English">
 
-<item id="1487339781" tmtrpt="4" stmtrpt="4" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<item id="1487339781" tmtrpt="16" stmtrpt="16" livl="2" rllivl="3" ivl="4" rp="3" gr="3">
 <q>provision</q>
 <a>zaopatrzenie</a>
 </item>
 
-<item id="1487439949" tmtrpt="5" stmtrpt="5" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>how to create group in linux?</q>
-<a><![CDATA[groupadd <name>]]></a>
-</item>
-
-<item id="1487439978" tmtrpt="5" stmtrpt="5" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>How to modify user in linux?</q>
-<a>usermod</a>
+<item id="1488443174" tmtrpt="16" stmtrpt="16" livl="0" rllivl="0" ivl="1" rp="0" gr="3">
+<q>intercept
+EN</q>
+<a>przechwytywać</a>
 </item>
 
 </category>
@@ -79,14 +75,14 @@ LEGEND:
 
 <category name="phpStorm">
 
-<item id="1487322734" tmtrpt="6" stmtrpt="6" livl="0" rllivl="0" ivl="4" rp="0" gr="5">
+<item id="1487322734" tmtrpt="33" stmtrpt="33" livl="4" rllivl="4" ivl="27" rp="1" gr="5">
 <q>Go to settings phpStorm</q>
 <a>Ctrl+Alt+S
 
 S Settings</a>
 </item>
 
-<item id="1487255060" tmtrpt="10" stmtrpt="3" livl="2" rllivl="1" ivl="8" rp="0" gr="4">
+<item id="1487255060" tmtrpt="68" stmtrpt="68" livl="8" rllivl="10" ivl="56" rp="1" gr="5">
 <q>phpStorm 
 How to navigate to class, file, symbol?</q>
 <a>class -> Ctrl+N
@@ -98,12 +94,155 @@ N as Name</a>
 
 </category>
 
-<item id="1487230473" tmtrpt="2" stmtrpt="2" livl="0" rllivl="0" ivl="1" rp="0" gr="3">
+<category name="linux">
+
+<item id="1488441262" tmtrpt="17" stmtrpt="17" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
+<q>What is in /proc folder?</q>
+<a>All details about linux system
+</a>
+</item>
+
+</category>
+
+<item id="1487232176" tmtrpt="16" stmtrpt="3" livl="2" rllivl="1" ivl="14" rp="0" gr="5">
+<q>images for slash   \   and   /</q>
+<a><![CDATA[<img>imgs\slash-backslash.png</img>]]></a>
+</item>
+
+<item id="1487230473" tmtrpt="16" stmtrpt="16" livl="1" rllivl="2" ivl="13" rp="1" gr="5">
 <q>image for   _</q>
 <a>wózek widłowy</a>
 </item>
 
-<item id="1487324098" tmtrpt="2" stmtrpt="2" livl="0" rllivl="0" ivl="0" rp="0" gr="2">
+<item id="1487577395" tmtrpt="16" stmtrpt="16" livl="2" rllivl="4" ivl="7" rp="1" gr="3">
+<q>How to add config to composer.json?</q>
+<a>e.g
+composer config repositories.nrh composer http://satis.mall.local
+
+composer config secure-http.a false
+</a>
+</item>
+
+<item id="1487316655" tmtrpt="17" stmtrpt="17" livl="2" rllivl="3" ivl="12" rp="1" gr="4">
+<q>Which sap-webservices we are using in refresh-availability script?</q>
+<a>Z_WEB_AV_STOCK -> how much stuff is in a warehouse
+Z_WEB_AV_STATUS 
+Z_WEB_AV_SUPPLIER</a>
+</item>
+
+<item id="1487316930" tmtrpt="17" stmtrpt="17" livl="2" rllivl="3" ivl="12" rp="1" gr="4">
+<q>memory img
+
+refresh-availability</q>
+<a><![CDATA[Tutaj wpisz odpowiedź.<img>imgs\refresh-availability_odświeżacz.jpg</img>]]></a>
+</item>
+
+<item id="1487316795" tmtrpt="17" stmtrpt="17" livl="2" rllivl="3" ivl="12" rp="1" gr="4">
+<q>memory image
+SAP </q>
+<a>sapiący koleś</a>
+</item>
+
+<item id="1487325836" tmtrpt="17" stmtrpt="17" livl="2" rllivl="3" ivl="12" rp="1" gr="4">
+<q>How to run docker container in detached mode 
+in background</q>
+<a><![CDATA[docker-compose up -d 
+
+<b>-d</b>]]></a>
+</item>
+
+<item id="1487577540" tmtrpt="17" stmtrpt="17" livl="2" rllivl="4" ivl="8" rp="1" gr="3">
+<q> How to add required packages to your composer.json and installs them?</q>
+<a><![CDATA[composer require
+
+
+ require [options] [--] [<packages>]...]]></a>
+</item>
+
+<item id="1487325739" tmtrpt="18" stmtrpt="18" livl="3" rllivl="3" ivl="12" rp="2" gr="4">
+<q>docker-compose  rebuild only one container ?</q>
+<a>docker-compose stop web
+docker-compose build web
+docker-compose up -d --no-deps web</a>
+</item>
+
+<item id="1487577425" tmtrpt="22" stmtrpt="22" livl="2" rllivl="7" ivl="10" rp="1" gr="3">
+<q>composer syntax</q>
+<a>
+command [options] [arguments]
+</a>
+</item>
+
+<item id="1487253565" tmtrpt="23" stmtrpt="23" livl="4" rllivl="4" ivl="17" rp="1" gr="4">
+<q>Test REC schema</q>
+<a>
+
+
+IWMTNEW_T2
+Im Więcej Miejsca Tym NEW Telewizor 2</a>
+</item>
+
+<item id="1487578878" tmtrpt="23" stmtrpt="23" livl="2" rllivl="4" ivl="14" rp="1" gr="4">
+<q>Refer shortly how php-di works</q>
+<a>return [
+    Foo::class => function ($container) {
+        $bar = $container->get(Bar::class);
+        return new Foo($bar);
+    }
+];</a>
+</item>
+
+<item id="1487577794" tmtrpt="23" stmtrpt="23" livl="2" rllivl="4" ivl="14" rp="1" gr="4">
+<q>syntax for docker-compose</q>
+<a><![CDATA[docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]]]></a>
+</item>
+
+<item id="1487253503" tmtrpt="30" stmtrpt="30" livl="8" rllivl="10" ivl="18" rp="1" gr="3">
+<q>Where we keep information about reservations?
+schema, table</q>
+<a>IWMTNEW_T2 
+availability
+</a>
+</item>
+
+<item id="1487234750" tmtrpt="30" stmtrpt="30" livl="8" rllivl="9" ivl="15" rp="2" gr="3">
+<q>Which command stop docker container?</q>
+<a><![CDATA[docker stop   -> gracefuly
+docker kill    -> 
+docker rm -f  -> force option<img>imgs\docker_image.png</img>]]></a>
+</item>
+
+<item id="1487339763" tmtrpt="32" stmtrpt="32" livl="6" rllivl="6" ivl="23" rp="2" gr="4">
+<q>How to copy file from container to host?</q>
+<a><![CDATA[docker cp <containerId>:/file/path/within/container /host/path/target]]></a>
+</item>
+
+<item id="1487439978" tmtrpt="32" stmtrpt="32" livl="10" rllivl="10" ivl="17" rp="2" gr="3">
+<q>How to modify user in linux?</q>
+<a>usermod</a>
+</item>
+
+<item id="1487439949" tmtrpt="32" stmtrpt="32" livl="10" rllivl="10" ivl="17" rp="2" gr="3">
+<q>how to create group in linux?</q>
+<a><![CDATA[groupadd <name>]]></a>
+</item>
+
+<item id="1487230229" tmtrpt="33" stmtrpt="33" livl="6" rllivl="7" ivl="24" rp="2" gr="4">
+<q>Ending of elastic kopf plugin?</q>
+<a>/_plugin/kopf</a>
+</item>
+
+<item id="1487578911" tmtrpt="44" stmtrpt="44" livl="6" rllivl="6" ivl="32" rp="2" gr="5">
+<q>What is autowiring in php</q>
+<a> It will scan the code and see what are the parameters needed in the constructors.</a>
+</item>
+
+<item id="1487600976" tmtrpt="46" stmtrpt="46" livl="6" rllivl="6" ivl="34" rp="2" gr="5">
+<q>How looks definition of serialize in php</q>
+<a>http://php.net/manual/pl/function.serialize.php#66147</a>
+</item>
+
+<item id="1487324098" tmtrpt="52" stmtrpt="52" livl="4" rllivl="9" ivl="40" rp="1" gr="5">
 <q>docker run command 
 
 How it looks like?
@@ -118,7 +257,7 @@ example  for bash
 docker run -t -i --rm ubuntu bash</a>
 </item>
 
-<item id="1487324990" tmtrpt="2" stmtrpt="2" livl="0" rllivl="0" ivl="0" rp="0" gr="2">
+<item id="1487324990" tmtrpt="58" stmtrpt="58" livl="4" rllivl="9" ivl="46" rp="1" gr="5">
 <q>structure for refresh-availability -L 1</q>
 <a>|-- Dockerfile.consumer
 |-- Dockerfile.producer
@@ -147,103 +286,41 @@ docker run -t -i --rm ubuntu bash</a>
 `-- vendor</a>
 </item>
 
-<item id="1487325739" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="1" rp="0" gr="3">
-<q>docker-compose  rebuild only one container ?</q>
-<a>docker-compose stop web
-docker-compose build web
-docker-compose up -d --no-deps web</a>
-</item>
-
-<item id="1487339763" tmtrpt="3" stmtrpt="3" livl="0" rllivl="0" ivl="1" rp="0" gr="3">
-<q>How to copy file from container to host?</q>
-<a><![CDATA[docker cp <containerId>:/file/path/within/container /host/path/target]]></a>
-</item>
-
-<item id="1487316655" tmtrpt="4" stmtrpt="4" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>Which sap-webservices we are using in refresh-availability script?</q>
-<a>Z_WEB_AV_STOCK -> how much stuff is in a warehouse
-Z_WEB_AV_STATUS 
-Z_WEB_AV_SUPPLIER</a>
-</item>
-
-<item id="1487316795" tmtrpt="4" stmtrpt="4" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>memory image
-SAP </q>
-<a>sapiący koleś</a>
-</item>
-
-<item id="1487316930" tmtrpt="4" stmtrpt="4" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>memory img
-
-refresh-availability</q>
-<a><![CDATA[Tutaj wpisz odpowiedź.<img>imgs\refresh-availability_odświeżacz.jpg</img>]]></a>
-</item>
-
-<item id="1487325836" tmtrpt="4" stmtrpt="4" livl="0" rllivl="0" ivl="2" rp="0" gr="4">
-<q>How to run docker container in detached mode 
-in background</q>
-<a><![CDATA[docker-compose up -d 
-
-<b>-d</b>]]></a>
-</item>
-
-<item id="1487234750" tmtrpt="6" stmtrpt="3" livl="2" rllivl="1" ivl="4" rp="0" gr="3">
-<q>Which command stop docker container?</q>
-<a><![CDATA[docker stop   -> gracefuly
-docker kill    -> 
-docker rm -f  -> force option<img>imgs\docker_image.png</img>]]></a>
-</item>
-
-<item id="1487253565" tmtrpt="6" stmtrpt="3" livl="2" rllivl="1" ivl="4" rp="0" gr="3">
-<q>Test REC schema</q>
-<a>
-
-
-IWMTNEW_T2
-Im Więcej Miejsca Tym NEW Telewizor 2</a>
-</item>
-
-<item id="1487230229" tmtrpt="8" stmtrpt="8" livl="1" rllivl="1" ivl="6" rp="1" gr="4">
-<q>Ending of elastic kopf plugin?</q>
-<a>/_plugin/kopf</a>
-</item>
-
-<item id="1487253503" tmtrpt="10" stmtrpt="3" livl="2" rllivl="1" ivl="8" rp="0" gr="4">
-<q>Where we keep information about reservations?
-schema, table</q>
-<a>IWMTNEW_T2 
-availability
-</a>
-</item>
-
-<item id="1487232861" tmtrpt="13" stmtrpt="3" livl="2" rllivl="1" ivl="11" rp="0" gr="5">
+<item id="1487232861" tmtrpt="90" stmtrpt="90" livl="11" rllivl="13" ivl="75" rp="1" gr="5">
 <q>default ES port </q>
 <a>PaNSoS
 9200
 </a>
 </item>
 
-<item id="1487233729" tmtrpt="14" stmtrpt="3" livl="2" rllivl="1" ivl="12" rp="0" gr="5">
+<item id="1487233729" tmtrpt="93" stmtrpt="93" livl="12" rllivl="13" ivl="78" rp="1" gr="5">
 <q>What labels are in docker-composer?</q>
 <a><![CDATA[They add metadata to containers
 https://docs.docker.com/engine/userguide/labels-custom-metadata/<img>imgs\docker_image.png</img>]]></a>
 </item>
 
-<item id="1487243296" tmtrpt="15" stmtrpt="3" livl="13" rllivl="0" ivl="13" rp="0" gr="4">
+<item id="1487243296" tmtrpt="99" stmtrpt="99" livl="13" rllivl="13" ivl="84" rp="1" gr="5">
 <q>numer do szefa 9express</q>
 <a>60 61 62 60 1
 jazz yetti cyna jazz duch
 </a>
 </item>
 
-<item id="1487232176" tmtrpt="16" stmtrpt="3" livl="2" rllivl="1" ivl="14" rp="0" gr="5">
-<q>images for slash   \   and   /</q>
-<a><![CDATA[<img>imgs\slash-backslash.png</img>]]></a>
-</item>
-
 </category>
 
 <category name="Home">
+
+<item id="1487448425" tmtrpt="18" stmtrpt="18" livl="1" rllivl="2" ivl="13" rp="1" gr="5">
+<q>pesel Emilki</q>
+<a>15251100322</a>
+</item>
+
+<item id="1487448363" tmtrpt="66" stmtrpt="66" livl="8" rllivl="10" ivl="51" rp="2" gr="5">
+<q>pesel Kamila</q>
+<a>17211213059
+
+t m s l p</a>
+</item>
 
 </category>
 
